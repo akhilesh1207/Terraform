@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = ""
-  secret_key = ""
+  access_key = "AKIAUDX4A6DDAQX6C34W"
+  secret_key = "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"
 }
 resource "aws_instance" "tfvm" {
   ami = "ami-0885b1f6bd170450c"
